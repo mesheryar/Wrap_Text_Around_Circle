@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #000;
+}
+section{
+    position: relative;
+    width: 100%;
+    padding: 50px;
+}
+.circle{
+    position: relative;
+    overflow: hidden;
+
+}
+.circlecircle1 img{
+    height: 400px;
+    width: 90%;
+    border-radius: 50%;
+ }  
+.circlecircle1{
+    width: 500px;
+    float: left;
+    margin: 20px;
+    shape-outside: circle();
+}
+.circlecircle2 img{
+    height: 300px;
+    width: 100%;
+    border-radius: 50%;
+    shape-outside: circle();
+}
+.circlecircle2{
+    width: 300px;
+    float: right;
+    margin: 20px;
+}
+h2{
+    color: white;
+    font-size: 2em;
+}
+p{
+    color: white;
+    margin-top: 10px;
+}
